@@ -1,4 +1,4 @@
-# TIAN ZINING — Data Science Portfolio
+# TIAN ZINING 鈥?Data Science Portfolio
 
 ## About Me
 
@@ -24,8 +24,8 @@ Do heavier mammal species live longer, and how strong is that association?
 ### Approach
 
 I loaded an extract of the AnAge database (4,218 records) and filtered it to 417 mammal species with body
-mass under 200,000 g. I measured the association three ways — Pearson correlation on raw body mass, on
-log10 body mass, and Spearman rank correlation — then visualised the relationship with a fitted regression
+mass under 200,000 g. I measured the association three ways 鈥?Pearson correlation on raw body mass, on
+log10 body mass, and Spearman rank correlation 鈥?then visualised the relationship with a fitted regression
 line and compared median longevity across five body-mass classes.
 
 ### Visualisation
@@ -37,7 +37,7 @@ line and compared median longevity across five body-mass classes.
 ### Findings
 
 - Median maximum longevity rises monotonically from **4.8 years** for species under 10 g to **26.6 years**
-  for species of 10–200 kg.
+  for species of 10鈥?00 kg.
 - The association is stronger on a logarithmic scale: **r = 0.59** for log10 body mass and **rho = 0.65**
   (Spearman), against **r = 0.43** for raw mass, so body mass acts multiplicatively on lifespan.
 - The association is moderate, not tight: longevity still spans roughly 2 to over 100 years inside a single
@@ -63,14 +63,14 @@ A classmate reviewed the first version of this portfolio and pointed out that th
 what the measurements represented: the scatter plot had no axis labels, no units and no stated sample size,
 so a reader could not tell what the numbers meant.
 
-I responded by rebuilding both figures — axis labels with units (grams, kilograms, years), a title that
+I responded by rebuilding both figures 鈥?axis labels with units (grams, kilograms, years), a title that
 states the finding and the sample size, a logarithmic body-mass axis ticked in grams and kilograms, an
 annotation describing the confidence band, and a second chart comparing median longevity across body-mass
 classes with the sample size on each bar. The README was rewritten to match: dataset source and permissions,
 methods, findings with the actual correlation values, limitation, and run instructions.
 
 The change is committed in `data-science-project` as
-**"Improve figures: axis labels, units and a median-by-mass-class chart"** (commit `21594d0` on `main`).
+**"Improve figures: axis labels, units and a median-by-mass-class chart"** (commit `da0a7f6` on `main`).
 
 ## Contact
 
